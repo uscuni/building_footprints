@@ -239,4 +239,6 @@ dependencies:
   - zipp=3.17.0=pyhd8ed1ab_0
   - zlib=1.2.13=h8a1eda9_5
   - zstd=1.5.5=h829000d_0
+  - pip:
+      - geoplanar==0.1.0
 prefix: /Users/lisawinkler/opt/anaconda3/envs/py312_uscuni_buildingfootprints

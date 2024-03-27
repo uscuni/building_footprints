@@ -8,7 +8,10 @@ Pre-processing of building footprints data
 
 * Downlaod_Footprints.py - Download building footprints data for a given city
 * Check_Tess_Input.py - Run momepy.CheckTessellationInput and save data as parquets
-* Explore_Issues.py - Explore buildings on map
+* Explore_Issues.ipynb - Explore buildings on map
+* Buildings_Berlin.ipynb - Explore Berlin Building Footprint data from OSM
+* Fix_Overlaps.ipynb - Preliminary exploration of fixing overlapping buildings
+
 
 ### Environment
 
