@@ -3,6 +3,11 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - access=1.1.8=pyhd8ed1ab_1
+  - affine=2.4.0=pyhd8ed1ab_0
+  - amply=0.1.6=pyhd8ed1ab_0
+  - anyio=4.3.0=pyhd8ed1ab_0
+  - anywidget=0.9.3=pyhd8ed1ab_0
   - appnope=0.1.4=pyhd8ed1ab_0
   - asttokens=2.4.1=pyhd8ed1ab_0
   - attrs=23.2.0=pyh71513ae_0
@@ -38,14 +43,25 @@ dependencies:
   - click=8.1.7=unix_pyh707e725_0
   - click-plugins=1.1.1=py_0
   - cligj=0.7.2=pyhd8ed1ab_1
+  - coin-or-cbc=2.10.10=he49632c_0
+  - coin-or-cgl=0.60.7=ha3c4b8c_0
+  - coin-or-clp=1.17.8=hf0ee74e_0
+  - coin-or-osi=0.108.8=hfef9e4d_0
+  - coin-or-utils=2.11.9=he494582_0
+  - coincbc=2.10.10=0_metapackage
   - colorama=0.4.6=pyhd8ed1ab_0
   - comm=0.2.2=pyhd8ed1ab_0
   - contourpy=1.2.0=py312hbf0bb39_0
+  - curl=8.6.0=h726d00d_0
   - cycler=0.12.1=pyhd8ed1ab_0
   - cykhash=2.0.1=py312heafc425_2
   - cython=3.0.9=py312hede676d_0
   - debugpy=1.8.1=py312hede676d_0
   - decorator=5.1.1=pyhd8ed1ab_0
+  - deprecation=2.1.0=pyh9f0ad1d_0
+  - descartes=1.1.0=py_4
+  - docutils=0.20.1=py312hb401068_3
+  - esda=2.5.1=pyhd8ed1ab_0
   - exceptiongroup=1.2.0=pyhd8ed1ab_2
   - executing=2.0.1=pyhd8ed1ab_0
   - expat=2.6.2=h73e2aa4_0
@@ -63,13 +79,14 @@ dependencies:
   - freetype=2.12.1=h60636b9_2
   - freexl=2.0.0=h3ec172f_0
   - gdal=3.8.4=py312h1be6df0_3
-  - geopandas=0.14.3=pyhd8ed1ab_0
-  - geopandas-base=0.14.3=pyha770c72_0
+  - geodatasets=2023.12.0=pyhd8ed1ab_0
   - geos=3.12.1=h93d8f39_0
   - geotiff=1.7.1=h509af15_15
   - gettext=0.21.1=h8a4c099_0
   - gflags=2.2.2=hb1e8313_1004
+  - giddy=2.3.5=pyhd8ed1ab_0
   - giflib=5.2.1=hb7f2c08_3
+  - git=2.44.0=pl5321h8687b19_0
   - glog=0.7.0=h31b1b29_0
   - hdf4=4.2.15=h8138101_7
   - hdf5=1.14.3=nompi_h691f4bf_100
@@ -77,14 +94,17 @@ dependencies:
   - idna=3.6=pyhd8ed1ab_0
   - importlib-metadata=7.1.0=pyha770c72_0
   - importlib_metadata=7.1.0=hd8ed1ab_0
+  - inequality=1.0.1=pyhd8ed1ab_0
   - ipykernel=6.29.3=pyh3cd1d5f_0
   - ipython=8.22.2=pyh707e725_0
+  - ipywidgets=8.1.2=pyhd8ed1ab_0
   - jedi=0.19.1=pyhd8ed1ab_0
   - jinja2=3.1.3=pyhd8ed1ab_0
   - joblib=1.3.2=pyhd8ed1ab_0
   - json-c=0.17=h8e11ae5_0
   - jupyter_client=8.6.1=pyhd8ed1ab_0
   - jupyter_core=5.7.2=py312hb401068_0
+  - jupyterlab_widgets=3.0.10=pyhd8ed1ab_0
   - kealib=1.5.3=h5f07ac3_0
   - kiwisolver=1.4.5=py312h49ebfd2_1
   - krb5=1.21.2=hb884880_0
@@ -126,6 +146,8 @@ dependencies:
   - libjpeg-turbo=3.0.0=h0dc2134_1
   - libkml=1.3.0=hab3ca0e_1018
   - liblapack=3.9.0=21_osx64_openblas
+  - liblapacke=3.9.0=21_osx64_openblas
+  - libllvm14=14.0.6=hc8e404f_4
   - libllvm16=16.0.6=hbedff68_3
   - libnetcdf=4.9.2=nompi_h7760872_113
   - libnghttp2=1.58.0=h64cf6d3_1
@@ -151,6 +173,8 @@ dependencies:
   - libzip=1.10.1=hc158999_3
   - libzlib=1.2.13=h8a1eda9_5
   - llvm-openmp=18.1.2=hb6ac08f_0
+  - llvmlite=0.42.0=py312h534208b_1
+  - lonboard=0.7.1=pyh80e38bb_0
   - lz4-c=1.9.4=hf0c8a7f_0
   - lzo=2.10=haf1e3a3_1000
   - mapclassify=2.6.1=pyhd8ed1ab_0
@@ -158,36 +182,47 @@ dependencies:
   - matplotlib=3.8.3=py312hb401068_0
   - matplotlib-base=3.8.3=py312h1fe5000_0
   - matplotlib-inline=0.1.6=pyhd8ed1ab_0
+  - mgwr=2.2.1=pyhd8ed1ab_0
   - minizip=4.0.5=h37d7099_0
   - momepy=0.7.0=pyhd8ed1ab_0
+  - mpmath=1.3.0=pyhd8ed1ab_0
   - munkres=1.1.4=pyh9f0ad1d_0
   - ncurses=6.4.20240210=h73e2aa4_0
   - nest-asyncio=1.6.0=pyhd8ed1ab_0
   - networkx=3.2.1=pyhd8ed1ab_0
   - nspr=4.35=hea0b92c_0
   - nss=3.98=ha05da47_0
+  - numba=0.59.1=py312h04e34b5_0
   - numpy=1.26.4=py312he3a82b2_0
   - openjpeg=2.5.2=h7310d3a_0
   - openssl=3.2.1=hd75f5a5_1
   - orc=2.0.0=h6c6cd50_0
+  - osmnx=1.9.1=pyhd8ed1ab_0
   - packaging=24.0=pyhd8ed1ab_0
+  - palettable=3.3.3=pyhd8ed1ab_0
   - pandas=2.2.1=py312h83c8a23_0
   - parso=0.8.3=pyhd8ed1ab_0
+  - patsy=0.5.6=pyhd8ed1ab_0
   - pcre2=10.43=h0ad2156_0
+  - perl=5.32.1=7_h10d778d_perl5
   - pexpect=4.9.0=pyhd8ed1ab_0
   - pickleshare=0.7.5=py_1003
   - pillow=10.2.0=py312h0c70c2f_0
   - pip=24.0=pyhd8ed1ab_0
   - pixman=0.43.4=h73e2aa4_0
   - platformdirs=4.2.0=pyhd8ed1ab_0
+  - pointpats=2.4.0=pyhd8ed1ab_0
+  - pooch=1.8.1=pyhd8ed1ab_0
   - poppler=24.03.0=h0c752f9_0
   - poppler-data=0.4.12=hd8ed1ab_0
   - postgresql=16.2=h06f2bd8_1
   - proj=9.3.1=h81faed2_0
   - prompt-toolkit=3.0.42=pyha770c72_0
   - psutil=5.9.8=py312h41838bb_0
+  - psygnal=0.10.2=pyhd8ed1ab_0
   - pthread-stubs=0.4=hc929b4f_1001
   - ptyprocess=0.7.0=pyhd3deb0d_0
+  - pulp=2.8.0=py312hb401068_0
   - pure_eval=0.2.2=pyhd8ed1ab_0
   - pyarrow=15.0.2=py312hc4c33ac_0_cpu
   - pygments=2.17.2=pyhd8ed1ab_0
@@ -195,6 +230,7 @@ dependencies:
   - pyproj=3.6.1=py312h14d93e9_5
   - pyrobuf=0.9.3=py312heafc425_6
   - pyrosm=0.6.2=py312h444b7ae_1
+  - pysal=23.7=pyhd8ed1ab_0
   - pysocks=1.7.1=pyha2e5f31_6
   - python=3.12.2=h9f0c242_0_cpython
   - python-dateutil=2.9.0=pyhd8ed1ab_0
@@ -203,23 +239,43 @@ dependencies:
   - python_abi=3.12=4_cp312
   - pytz=2024.1=pyhd8ed1ab_0
   - pyzmq=25.1.2=py312hc789acb_0
+  - quantecon=0.7.2=pyhd8ed1ab_0
+  - rasterio=1.3.9=py312h2bf6802_2
+  - rasterstats=0.19.0=pyhd8ed1ab_0
   - re2=2023.09.01=hb168e87_2
   - readline=8.2=h9e318b2_1
   - requests=2.31.0=pyhd8ed1ab_0
   - rtree=1.2.0=py312h8974cf7_0
+  - ruff=0.3.5=py312h1bc86af_0
   - scikit-learn=1.4.1.post1=py312h7167a34_0
   - scipy=1.12.0=py312h8adb940_2
+  - seaborn=0.13.2=hd8ed1ab_0
+  - seaborn-base=0.13.2=pyhd8ed1ab_0
+  - segregation=2.5=pyhd8ed1ab_1
   - setuptools=69.2.0=pyhd8ed1ab_0
   - shapely=2.0.3=py312h8fb43f9_0
+  - simplejson=3.19.2=py312h41838bb_0
   - six=1.16.0=pyh6c4a22f_0
   - snappy=1.1.10=h225ccf5_0
+  - sniffio=1.3.1=pyhd8ed1ab_0
+  - snuggs=1.4.7=py_0
   - soupsieve=2.5=pyhd8ed1ab_1
+  - spaghetti=1.7.5.post1=pyhd8ed1ab_0
   - spdlog=1.12.0=h8dd852c_2
+  - spglm=1.1.0=pyhd8ed1ab_1
+  - spint=1.0.7=pyhd8ed1ab_1
+  - splot=1.1.5.post1=pyhd8ed1ab_0
+  - spopt=0.6.0=pyhd8ed1ab_0
+  - spreg=1.4.2=pyhd8ed1ab_0
+  - spvcm=0.3.0=pyhd8ed1ab_1
   - sqlite=3.45.2=h7461747_0
   - stack_data=0.6.2=pyhd8ed1ab_0
+  - statsmodels=0.14.1=py312h3f2338b_0
+  - sympy=1.12=pyh04b8f61_3
   - threadpoolctl=3.4.0=pyhc1e730c_0
   - tiledb=2.20.1=he1859ca_4
   - tk=8.6.13=h1abcd95_1
+  - tobler=0.11.2=pyhd8ed1ab_2
   - tornado=6.4=py312h41838bb_0
   - tqdm=4.66.2=pyhd8ed1ab_0
   - traitlets=5.14.2=pyhd8ed1ab_0
@@ -228,8 +284,11 @@ dependencies:
   - tzdata=2024a=h0c530f3_0
   - uriparser=0.9.7=he965462_1
   - urllib3=2.2.1=pyhd8ed1ab_0
+  - watchfiles=0.21.0=py312h6e28e45_0
   - wcwidth=0.2.13=pyhd8ed1ab_0
   - wheel=0.43.0=pyhd8ed1ab_0
+  - widgetsnbextension=4.0.10=pyhd8ed1ab_0
+  - wrapt=1.16.0=py312h41838bb_0
   - xerces-c=3.2.5=hbbe9ea5_0
   - xorg-libxau=1.0.11=h0dc2134_0
   - xorg-libxdmcp=1.1.3=h35c211d_0
@@ -240,5 +299,7 @@ dependencies:
   - zlib=1.2.13=h8a1eda9_5
   - zstd=1.5.5=h829000d_0
   - pip:
+      - geopandas==1.0.0a1
       - geoplanar==0.1.0
+      - pyogrio==0.7.2
 prefix: /Users/lisawinkler/opt/anaconda3/envs/py312_uscuni_buildingfootprints
