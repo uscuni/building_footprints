@@ -6,7 +6,8 @@ Pre-processing of building footprints data
 
 ### Notebooks
 
-Building Pre-processing steps:
+Building pre-processing steps:
+
 0. Shapely Validation and Checking Geometry Types
 1. Fix Overlapping Buildings (merge or trim)
 2. Fix Collapsed Buildings (merge or remove)
