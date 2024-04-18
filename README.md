@@ -4,6 +4,17 @@ Pre-processing of building footprints data
 
 ## Contents
 
+### Notebooks
+
+Building pre-processing steps:
+
+0. Shapely Validation and Checking Geometry Types
+1. Fix Overlapping Buildings (merge or trim)
+2. Fix Collapsed Buildings (merge or remove)
+3. Snap
+4. Split features
+
+
 ### Code
 
 * Downlaod_Footprints.py - Download building footprints data for a given city
